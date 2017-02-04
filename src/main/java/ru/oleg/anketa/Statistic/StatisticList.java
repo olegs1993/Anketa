@@ -7,7 +7,6 @@ import java.util.List;
  * Created by Oleg on 04.02.2017.
  */
 public class StatisticList {
-
     public static String string;
     public static List<Statistic> statisticList=new LinkedList<Statistic>();
     public static void   getStatistic(){
