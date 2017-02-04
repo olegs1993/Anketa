@@ -23,7 +23,6 @@ public class MainServlet extends HttpServlet {
         String qestion2=req.getParameter("python");
         StatisticList.statisticList.add(new Statistic(name,surname,qestion1,qestion2));
         StatisticList.getStatistic();
-        RequestDispatcher requestDispatcher=getServletContext().getRequestDispatcher("/WEB-INF/views/main.jsp");
         resp.sendRedirect("/Anketa_war_exploded/redirect");
 
 
