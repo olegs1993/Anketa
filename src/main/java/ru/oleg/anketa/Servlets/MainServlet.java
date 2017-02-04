@@ -18,7 +18,7 @@ public class MainServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String name=req.getParameter("name");
-        String surname=req.getParameter("surename");
+        String surname=req.getParameter("surname");
         String qestion1=req.getParameter("java");
         String qestion2=req.getParameter("python");
         StatisticList.statisticList.add(new Statistic(name,surname,qestion1,qestion2));

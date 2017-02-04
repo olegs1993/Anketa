@@ -12,7 +12,8 @@
     <title>Title</title>
 </head>
 <body>
-<p>Форму отправили ${a} человек.</p>
-<p>${b}</p>
+
+<p>Форму отправили ${size} человек.</p>
+<p>${statistic}</p>
 </body>
 </html>
